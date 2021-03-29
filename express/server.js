@@ -36,7 +36,7 @@ const router = express.Router();
 
 app.use(express.static(path.join(__dirname + '../public')));
 
-app.set("views", path.join(__dirname, "views"));
+// app.set("views", path.join(__dirname, "views"));
 
 // define the home page route
 router.get('/', function(req, res) {
@@ -52,7 +52,7 @@ router.get('/industrial', function(req, res) {
 });
 
 router.get('/service', function(req, res) {
-  res.render('sections/service.html');
+  res.render('public/views/sections/service.html');
 });
 
 router.get('/about', function(req, res) {
