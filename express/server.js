@@ -3,7 +3,6 @@
 // const express = require('express')
 // const path = require('path')
 // var bodyParser = require('body-parser');
-// app.use(express.static(__dirname + '../public'));
 
 // const app = express()
 
@@ -29,12 +28,15 @@ const express = require('express');
 const path = require('path');
 const serverless = require('serverless-http');
 const app = express();
+
 const bodyParser = require('body-parser');
 app.engine('html', require('ejs').renderFile);
 
 const router = express.Router();
 
-app.set("views", path.join(__dirname, "public/views"));
+app.use(express.static(path.join(__dirname + '../public')));
+
+app.set("views", path.join(__dirname, "views"));
 
 // define the home page route
 router.get('/', function(req, res) {
