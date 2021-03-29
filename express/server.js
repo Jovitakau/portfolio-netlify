@@ -7,7 +7,6 @@
 
 // const app = express()
 
-
 // app.set('view engine', 'html');
 
 // app.use(bodyParser.urlencoded({
@@ -35,18 +34,11 @@ app.engine('html', require('ejs').renderFile);
 
 const router = express.Router();
 
-
-// router.get('/', (req, res) => {
-//   res.writeHead(200, { 'Content-Type': 'text/html' });
-//   res.write('<h1>Hello from Express.js!</h1>');
-//   res.end();
-// });
-app.set("views", path.join(__dirname, "../public/views"));
-
+app.set("views", path.join(__dirname, "public/views"));
 
 // define the home page route
 router.get('/', function(req, res) {
-  res.render('index.html');
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 router.get('/projects', function(req, res) {
