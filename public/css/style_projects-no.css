@@ -1,0 +1,281 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+/* navbar */
+
+#mainNavbar{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: rgb(0, 0, 0);
+}
+
+#mainNavbar .nav-link:hover{
+    color: #000000;
+}
+
+#mainNavbar .navbar-brand{
+    color: #000000;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.918);
+    transition: background 0.2s;
+}
+
+#navLinks.scrolled {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background 0.2s;
+}
+
+#logo_jovitaKAU{  
+width:25%;
+margin: 1rem;
+margin-left: 0rem;
+position: relative;
+}
+
+#navLinks{
+    text-align: right;
+    justify-content: flex-end;
+    background-color: white;
+    margin-left: 0%;
+}
+.nav-link{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: rgb(215, 193, 187) !important;
+    cursor: default !important;
+}
+
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+  } 
+
+  .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+   
+    box-shadow: none;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler:focus{
+     outline: 1px;
+    border-color: rgb(124, 124, 124);
+    transition: 0.6s ease-in-out;
+}
+
+/* cover */
+
+.border_line_around_brief{
+    border: solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-width: 1px;
+    border-color: #BCBCBC;
+    height: 1rem;  
+
+}
+
+h4{
+    color: #000;
+    font-weight: 100;
+    font-size:30px;
+    text-transform: uppercase;
+}
+
+.brief{
+    color: #6d6d6d;
+    font-weight: 100;
+    font-size:20px;
+    text-transform: uppercase;
+    height: 2rem;
+}
+
+
+.description-section p{
+    color: #BCBCBC;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.description-section p span{
+    color: rgb(33, 33, 33);
+}
+
+.project-title-section{
+    margin-bottom: 0rem;
+}
+
+.brief-section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#title_top_spacing-foodability{
+width: auto;
+height: 0rem;
+}
+#title_top_spacing-greenboard{
+    width: auto;
+    height: 0rem;
+}
+
+
+/* <!-- section divider brief/process/product--> */
+
+.divider{
+    color: #BCBCBC;
+    font-weight: 100;
+    font-size:16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: default !important;
+    
+}
+.divider:hover{
+    color: rgb(215, 193, 187) !important;
+    cursor: default !important;
+}
+
+.divider_margin{
+    position: relative;
+  
+}
+#divider_brief{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+#divider_process{
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+}
+#divider_product{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.highlighted{
+    color: rgb(33, 33, 33);
+}
+.border_on_sides{
+border: solid;
+border-top:none;
+border-bottom:none;
+border-left-width: 1px;
+border-right-width: 1px;
+border-color: #BCBCBC;
+
+}
+
+/* section */
+
+h5{
+    color: #000;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: .6rem;
+}
+h6{
+    color: #000;
+    font-weight: 100;
+}
+
+#rotation_gif{
+    width: 10em;
+    align-self: center;
+    display: none;
+}
+
+/* gif to indicate to change device orientation */
+
+#rotation_gif{
+    width: 10em;
+    align-self: center;
+   display:block;
+}
+
+
+/* footer */
+
+footer{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    background-color:  rgba(215, 193, 187, 0.062);
+   
+}
+
+#footer_title{
+    color: rgb(33, 33, 33);
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+svg {
+    fill:rgb(134, 134, 134);
+    
+  }
+  svg:hover {
+    fill: rgb(215, 193, 187);
+    transition: 1s;
+  }
+
+  #rights_reserved{
+      color: rgb(134, 134, 134);
+      font-size: .7rem;
+      margin-bottom: -.5rem;
+      font-weight: 100;
+  }
+
+/* presentation images */
+
+  .fotogallery{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(143, 143, 143);
+  }
+
+
+/* media changes of the main content */
+
+@media (min-width:768px){
+    h4{
+        color: #000;
+        font-weight: 100;
+        font-size:24px;
+        text-transform: uppercase;
+    }
+
+    .description-section p{
+        font-size: 12px;
+    }
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 20px;
+        background-color: tomato;
+        }
+}
+
+@media (min-width:992px){
+    #rotation_gif{
+    display:none;
+    }
+}

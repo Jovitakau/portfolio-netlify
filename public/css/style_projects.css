@@ -1,0 +1,636 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+
+#mainNavbar{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: rgb(0, 0, 0);
+}
+
+#mainNavbar .nav-link:hover{
+    color: #000000;
+}
+
+#mainNavbar .navbar-brand{
+    color: #000000;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.918);
+    transition: background 0.2s;
+}
+
+#navLinks.scrolled {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background 0.2s;
+}
+
+#logo_jovitaKAU{  
+width:25%;
+margin: 1rem;
+margin-left: 0rem;
+position: relative;
+}
+
+#navLinks{
+    text-align: right;
+    justify-content: flex-end;
+    background-color: white;
+    margin-left: 0%;
+}
+.nav-link{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: rgb(215, 193, 187) !important;
+    cursor: default !important;
+}
+
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+  } 
+
+  .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+   
+    box-shadow: none;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler:focus{
+     outline: 1px;
+    border-color: rgb(124, 124, 124);
+    transition: 0.6s ease-in-out;
+}
+
+.border_line_around_brief{
+    border: solid;
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+    border-top-width: 1px;
+    border-color: #BCBCBC;
+   
+
+}
+
+#app_cover{
+    width: 100%;
+   
+}
+
+h4{
+    color: #000;
+    font-weight: 100;
+    font-size:30px;
+    text-transform: uppercase;
+}
+
+.brief{
+    color: #6d6d6d;
+    font-weight: 100;
+    font-size:20px;
+    text-transform: uppercase;
+    height: 2rem;
+}
+
+
+.description-section p{
+    color: #BCBCBC;
+    font-weight: 100;
+    font-size:30px;
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.description-section p span{
+    color: rgb(33, 33, 33);
+}
+
+.team{
+    font-size: small;
+    color: #BCBCBC;
+    
+}
+.team span{
+    color: rgb(34, 34, 34);
+}
+
+.background-pic-foodability{
+    background:transparent url('../MEDIA/PROJECTS/FOODABILITY/food_waste.png') no-repeat center center/cover;
+    overflow: hidden;
+}
+.background-pic-greenboard{
+    background:transparent url('../MEDIA/PROJECTS/GREENBOARD/greenboard-background-01.png') no-repeat center center/cover;
+    overflow: hidden;
+}
+.board{
+    background-image: url('../MEDIA/PROJECTS/GREENBOARD/board.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.board:hover{
+    background-image: url('../MEDIA/PROJECTS/GREENBOARD/board_hover.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.project-title-section{
+    margin-bottom: 0rem;
+}
+
+.brief-section{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.description-section{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+#title_top_spacing-foodability{
+width: auto;
+height: 16rem;
+}
+#title_top_spacing-greenboard{
+    width: auto;
+    height: 2rem;
+}
+.external_links a{
+    color: rgb(215, 193, 187);
+}
+
+a {
+    color:rgb(134, 134, 134) !important;
+    text-decoration:none !important;
+
+        
+      }
+     a:hover {
+        color: rgb(215, 193, 187) !important;
+        transition: 1s;
+      }
+
+      .grey_background{
+          background-color: rgb(213, 213, 213);
+      }
+
+      .bigger_interline{
+          line-height: 140%;
+      }
+
+      .presentation{
+        margin-bottom: 1rem;
+        border-top: #dadada;
+        border-top: solid;
+        border-top-width: 1px;
+        border-bottom: none;
+        
+
+    }
+
+    #intro{
+        color: rgb(134, 134, 134);
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 40px;
+        margin-bottom: 0px;
+        text-align: center;
+        text-transform: none;
+    }
+
+    #intro span{
+        color: black;
+    }
+
+   .icon_divisor{
+       height: 10px;
+   }
+.icon_descriptions{
+    font-size: 15px;
+}
+
+.carousel-inner>.item {
+    -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+    -o-transition: -o-transform 1.2s ease-in-out !important;
+    transition: transform 1.2s ease-in-out !important;
+}
+
+
+/* <!-- section divider brief/process/product--> */
+
+.divider{
+    color: #BCBCBC;
+    font-weight: 100;
+    font-size:16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: default !important;
+    
+}
+.divider:hover{
+    color: rgb(215, 193, 187) !important;
+    cursor: default !important;
+}
+
+.divider_margin{
+    position: relative;
+  
+}
+#divider_brief{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+#divider_process{
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+}
+#divider_process_seeit{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#divider_product{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+#divider_product_seeit{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.highlighted{
+    color: rgb(33, 33, 33);
+}
+.border_on_sides{
+border: solid;
+border-top:none;
+border-bottom:none;
+border-left-width: 1px;
+border-right-width: 1px;
+border-color: #BCBCBC;
+}
+
+.subtitle{
+    color: #000000;
+    font-weight: 100;
+    font-size:18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: default !important;
+}
+.subtitle span{
+    color: #000000;
+    font-weight: 100;
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: default !important;
+
+}
+
+.profile_pic{
+    width: 80%;
+}
+
+/* section */
+
+h5{
+    color: #000;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: .6rem;
+}
+h6{
+    color: #000;
+    font-weight: 100;
+}
+
+#rotation_gif{
+    width: 10em;
+    align-self: center;
+    display: none;
+}
+/* footer */
+
+footer{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    background-color:  rgba(215, 193, 187, 0.062);
+   
+}
+
+#footer_title{
+    color: rgb(33, 33, 33);
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+svg {
+    fill:rgb(134, 134, 134);
+    
+  }
+  svg:hover {
+    fill: rgb(215, 193, 187);
+    transition: 1s;
+  }
+
+  #rights_reserved{
+      color: rgb(134, 134, 134);
+      font-size: .7rem;
+      margin-bottom: -.5rem;
+      font-weight: 100;
+  }
+  .fotogallery{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(143, 143, 143);
+  }
+/* media changes for nav bar */
+
+@media (max-width: 683px) {
+   
+    .nav-link{
+        font-weight: 100;
+        font-size: 13px;
+        line-height: 1rem;
+    }
+     #app_cover{
+        width: 300%;
+    }
+     
+}
+
+
+
+/* media changes of the main content */
+
+
+@media (max-width:2300px){
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 15rem;  
+    }
+    .description-section p{
+        font-size:28px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+      
+    }
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 10rem;
+       }
+    } 
+
+@media (max-width:1600px){
+    h4{
+        color: #000;
+        font-weight: 100;
+        font-size:28px;
+        text-transform: uppercase;
+    }
+    
+    .brief{
+        color: #6d6d6d;
+        font-weight: 100;
+        font-size:20px;
+        text-transform: uppercase;
+        height: 2rem;
+    }
+
+    .description-section p{
+        font-size:20px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    
+    }
+
+    .project-title-section{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        
+    }
+
+    .brief-section{
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .description-section{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    
+     #app_cover{
+        width: 100%;
+       
+    } 
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 8rem;
+       
+    }     
+}
+@media (max-width:1200px){
+    h4{
+        color: #000;
+        font-weight: 100;
+        font-size:26px;
+        text-transform: uppercase;
+    }
+    .description-section p{
+        font-size:20px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+      
+    }
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 4rem;
+       
+    }  
+
+    .brief{
+        color: #6d6d6d;
+        font-weight: 100;
+        font-size:16px;
+        text-transform: uppercase;
+        height: 2rem;
+    }
+
+    .project-title-section{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .brief-section{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .description-section{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    
+    #app_cover{
+        width: 112%;
+       
+    } 
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 10rem;
+       
+    }
+}
+
+@media (max-width:1100px){
+
+    h4{
+        color: #000;
+        font-weight: 100;
+        font-size:24px;
+        text-transform: uppercase;
+    }
+
+    .brief{
+        color: #6d6d6d;
+        font-weight: 100;
+        font-size:14px;
+        text-transform: uppercase;
+        height: 2rem;
+    } 
+    
+    .description-section p{
+        font-size:14px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+      
+    }
+
+    .project-title-section{
+        margin-bottom:0;
+    }
+
+    .brief-section{
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .description-section{
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+
+    #app_cover{
+        width: 100%;
+        
+    }
+
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .divider{
+        color: #BCBCBC;
+        font-weight: 100;
+        font-size:14px;
+        display: run-in;
+    }
+    
+    .highlighted{
+        color: rgb(33, 33, 33);
+    }
+    
+    #rotation_gif{
+        width: 10em;
+        align-self: center;
+       display:block;
+    }
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 6rem;
+       }
+    }  
+
+@media (max-width:767px){
+
+    .profile_pic{
+        width: 100%;
+    }
+
+    .description-section p{
+        
+        font-size:15px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .background-pic-foodability{
+        background:transparent;
+    }
+
+    .background-pic-greenboard{
+        background:transparent;
+    }
+    
+
+    #foodability_app_cover{
+        background:transparent;
+        background-image: url('../MEDIA/PROJECTS/FOODABILITY/food_waste.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center 82%;
+    }
+
+    #greenboard_app_cover{
+        background:transparent;
+        background-image: url('../MEDIA/PROJECTS/GREENBOARD/greenboard-background.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center 82%;
+    }
+
+
+    #title_top_spacing-foodability{
+        height: 0%;
+        }
+
+        .divider{
+            color: #BCBCBC;
+            font-weight: 100;
+            font-size:12px;
+            padding-right:.5rem;
+            padding-left: .5rem;    
+        }
+
+        .highlighted{
+            color: rgb(33, 33, 33);
+        }
+      
+    }
+    @media (max-width:300px){
+
+        .description-section p{
+            padding:0;
+        }
+    }    

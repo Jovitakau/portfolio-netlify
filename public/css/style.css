@@ -1,0 +1,258 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.grid-element {
+    z-index: 0;
+    display: flex;
+}
+
+.grid-element .nested-image {
+    z-index: 0;
+}
+
+.grid-element .caption {
+    position: absolute;
+    z-index: 1;
+}
+
+.grid-element .caption h4 {
+    color: #0000;
+    font-weight: 100;
+    font-size:25px;
+    text-transform: uppercase;
+}
+p{
+    color: rgb(51, 51, 51);
+    font-weight: 100;
+    font-size:20px;
+    text-align: justify;
+}
+
+
+.grid-element:hover .caption h4{
+    color: #000;
+    display: block;
+    margin: auto auto;
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.grid-element .nested-image:hover{
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.no-hover{
+    pointer-events: none;
+}
+
+
+
+#mainNavbar{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: rgb(0, 0, 0);
+}
+
+#mainNavbar .nav-link:hover{
+    color: #000000;
+}
+
+#mainNavbar .navbar-brand{
+    color: #000000;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.918);
+    transition: background 0.2s;
+}
+
+#navLinks.scrolled {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background 0.2s;
+}
+
+#logo_jovitaKAU{  
+width:25%;
+margin: 1rem;
+margin-left: 0rem;
+}
+
+#navLinks{
+    text-align: right;
+    justify-content: flex-end;
+    background-color: white;
+    margin-left: 0%;
+}
+.nav-link{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: rgb(215, 193, 187) !important;
+    cursor: default !important;
+}
+
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+  } 
+
+  .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    /* outline: 1px;
+    border-color: rgb(124, 124, 124); */
+    box-shadow: none;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler:focus{
+     outline: 1px;
+    border-color: rgb(124, 124, 124);
+    transition: 0.6s ease-in-out;
+}
+
+.presentation{
+    margin-top:6rem;
+    margin-bottom: 1rem;
+}
+
+#intro{
+    color: #333333;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 34px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: none;
+}
+/* footer */
+
+footer{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    background-color:  rgba(215, 193, 187, 0.062);
+   
+}
+
+#footer_title{
+    color: rgb(33, 33, 33);
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+svg {
+    fill:rgb(134, 134, 134);
+    
+  }
+  svg:hover {
+    fill: rgb(215, 193, 187);
+    transition: 1s;
+  }
+
+  #rights_reserved{
+      color: rgb(134, 134, 134);
+      font-size: .7rem;
+      margin-bottom: -.5rem;
+      font-weight: 100;
+  }
+
+@media (max-width: 683px) {
+    #intro{
+      display: none;
+    }
+    .nav-link{
+        font-weight: 100;
+        font-size: 13px;
+        line-height: 1rem;
+    }
+    .section_choice a{
+        text-decoration: none; 
+        font-size: 8px;
+        color: #333333;
+        text-transform: uppercase;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        cursor: default;
+        
+    }
+    .grid-element .caption h4 {
+        color: #0000;
+        font-weight: 100;
+        font-size:30px;
+        text-transform: uppercase;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #intro{
+        color: #333333;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 35px;
+        margin-bottom: 12px;
+        text-align: center;
+        text-transform: none;
+    }
+    }
+
+
+.section_choice a{
+    text-decoration: none; 
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    cursor: default;
+    
+}
+
+.section_choice a:hover{
+    color: rgb(215, 193, 187)
+}
+
+.section_choice span{
+    color: rgb(215, 193, 187);
+    font-size: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .section_choice a{
+        text-decoration: none; 
+        font-size: 12px;
+        color: #333333;
+        text-transform: uppercase;
+        margin-right: 0.3rem;
+        margin-left: 0.3rem;
+        cursor: default;
+    }
+
+    .section_choice a:hover{
+        color: rgb(215, 193, 187)
+    }
+    
+    .section_choice span{
+        color: rgb(215, 193, 187);
+        font-size: 25px;
+    }
+    .grid-element .caption h4 {
+        color: #0000;
+        font-weight: 100;
+        font-size:25px;
+        text-transform: uppercase;
+    }
+    }

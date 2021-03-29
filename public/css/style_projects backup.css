@@ -1,0 +1,504 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+
+#mainNavbar{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: rgb(0, 0, 0);
+}
+
+#mainNavbar .nav-link:hover{
+    color: #000000;
+}
+
+#mainNavbar .navbar-brand{
+    color: #000000;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.918);
+    transition: background 0.2s;
+}
+
+#navLinks.scrolled {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background 0.2s;
+}
+
+#logo_jovitaKAU{  
+width:25%;
+margin: 1rem;
+margin-left: 0rem;
+position: relative;
+}
+
+#navLinks{
+    text-align: right;
+    justify-content: flex-end;
+    background-color: white;
+    margin-left: 0%;
+}
+.nav-link{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: rgb(215, 193, 187) !important;
+    cursor: default !important;
+}
+
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+  } 
+
+  .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+   
+    box-shadow: none;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler:focus{
+     outline: 1px;
+    border-color: rgb(124, 124, 124);
+    transition: 0.6s ease-in-out;
+}
+
+.border_line_around_brief{
+    border: solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-width: 1px;
+    border-color: #BCBCBC;
+    height: 1rem;  
+
+}
+
+#app_cover{
+    width: 100%;
+   
+}
+
+h4{
+    color: #000;
+    font-weight: 100;
+    font-size:30px;
+    text-transform: uppercase;
+}
+
+.brief{
+    color: #6d6d6d;
+    font-weight: 100;
+    font-size:20px;
+    text-transform: uppercase;
+    height: 2rem;
+}
+
+
+.description-section p{
+    color: #BCBCBC;
+    font-weight: 100;
+    font-size:20px;
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.description-section p span{
+    color: rgb(33, 33, 33);
+}
+
+.background-pic-foodability{
+    background:transparent url('../MEDIA/PROJECTS/FOODABILITY/food_waste.png') no-repeat center center/cover;
+    overflow: hidden;
+}
+.background-pic-greenboard{
+    background:transparent url('../MEDIA/PROJECTS/GREENBOARD/greenboard-background-01.png') no-repeat center center/cover;
+    overflow: hidden;
+}
+
+.project-title-section{
+    margin-bottom: 0rem;
+}
+
+.brief-section{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.description-section{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+#title_top_spacing-foodability{
+width: auto;
+height: 6rem;
+}
+#title_top_spacing-greenboard{
+    width: auto;
+    height: 2rem;
+}
+/* <!-- section divider brief/process/product--> */
+
+.divider{
+    color: #BCBCBC;
+    font-weight: 100;
+    font-size:16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: default !important;
+    
+}
+.divider:hover{
+    color: rgb(215, 193, 187) !important;
+    cursor: default !important;
+}
+
+.divider_margin{
+    position: relative;
+  
+}
+#divider_brief{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+#divider_process{
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+}
+#divider_product{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.highlighted{
+    color: rgb(33, 33, 33);
+}
+.border_on_sides{
+border: solid;
+border-top:none;
+border-bottom:none;
+border-left-width: 1px;
+border-right-width: 1px;
+border-color: #BCBCBC;
+
+}
+
+/* section */
+
+h5{
+    color: #000;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: .6rem;
+}
+h6{
+    color: #000;
+    font-weight: 100;
+}
+
+#rotation_gif{
+    width: 10em;
+    align-self: center;
+    display: none;
+}
+/* footer */
+
+footer{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    background-color:  rgba(215, 193, 187, 0.062);
+   
+}
+
+#footer_title{
+    color: rgb(33, 33, 33);
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+svg {
+    fill:rgb(134, 134, 134);
+    
+  }
+  svg:hover {
+    fill: rgb(215, 193, 187);
+    transition: 1s;
+  }
+
+  #rights_reserved{
+      color: rgb(134, 134, 134);
+      font-size: .7rem;
+      margin-bottom: -.5rem;
+      font-weight: 100;
+  }
+  .fotogallery{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(143, 143, 143);
+
+/* media changes for nav bar */
+
+@media (max-width: 683px) {
+   
+    .nav-link{
+        font-weight: 100;
+        font-size: 13px;
+        line-height: 1rem;
+    }
+     #app_cover{
+        width: 300%;
+    }
+     
+}
+
+
+
+/* media changes of the main content */
+
+@media (max-width:2300px){
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 15rem;
+        
+    }
+}
+
+
+@media (max-width:1400px){
+    h4{
+        color: #000;
+        font-weight: 100;
+        font-size:28px;
+        text-transform: uppercase;
+    }
+    
+    .brief{
+        color: #6d6d6d;
+        font-weight: 100;
+        font-size:18px;
+        text-transform: uppercase;
+        height: 2rem;
+    }
+
+    .description-section p{
+        color: #BCBCBC;
+        font-weight: 100;
+        font-size:16px;
+        text-align: justify;
+        text-justify: inter-word;
+        -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+
+    .project-title-section{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        
+    }
+
+    .brief-section{
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .description-section{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    
+     #app_cover{
+        width: 100%;
+       
+    } 
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 10rem;
+       
+    }     
+}
+@media (max-width:1200px){
+    h4{
+        color: #000;
+        font-weight: 100;
+        font-size:26px;
+        text-transform: uppercase;
+    }
+    
+    .brief{
+        color: #6d6d6d;
+        font-weight: 100;
+        font-size:16px;
+        text-transform: uppercase;
+        height: 2rem;
+    }
+
+    .description-section p{
+        color: #BCBCBC;
+        font-weight: 100;
+        font-size:14px;
+        text-align: justify;
+        text-justify: inter-word;
+        -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+    
+    .project-title-section{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .brief-section{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .description-section{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    
+    #app_cover{
+        width: 112%;
+       
+    } 
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 8rem;
+       
+    }
+}
+
+@media (max-width:991px){
+
+    h4{
+        color: #000;
+        font-weight: 100;
+        font-size:24px;
+        text-transform: uppercase;
+    }
+
+    .description-section p{
+        color: #BCBCBC;
+        font-weight: 100;
+        font-size:12px;
+        text-align: justify;
+        text-justify: inter-word;
+        -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+
+    .brief{
+        color: #6d6d6d;
+        font-weight: 100;
+        font-size:14px;
+        text-transform: uppercase;
+        height: 2rem;
+    }
+
+    .project-title-section{
+        margin-bottom:0;
+    }
+
+    .brief-section{
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .description-section{
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+
+    #app_cover{
+        width: 100%;
+        
+    }
+
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .divider{
+        color: #BCBCBC;
+        font-weight: 100;
+        font-size:14px;
+        display: run-in;
+    }
+    
+    .highlighted{
+        color: rgb(33, 33, 33);
+    }
+    
+    #rotation_gif{
+        width: 10em;
+        align-self: center;
+       display:block;
+    }
+    #title_top_spacing-foodability{
+        width: auto;
+        height: 6rem;
+       }
+    }  
+
+@media (max-width:768px){
+
+    .description-section p{
+        color: #BCBCBC;
+        font-weight: 100;
+        font-size:11px;
+        text-align: justify;
+        text-justify: inter-word;
+        -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+    
+    .background-pic-foodability{
+        background:transparent;
+    }
+    
+
+    #app_cover{
+        background:transparent;
+        background-image: url('../MEDIA/PROJECTS/FOODABILITY/food_waste.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center 82%;
+    }
+    #title_top_spacing-foodability{
+        height: 0%;
+        }
+
+        .divider{
+            color: #BCBCBC;
+            font-weight: 100;
+            font-size:12px;
+            padding: 0;
+
+            
+        }
+        .highlighted{
+            color: rgb(33, 33, 33);
+        }
+      
+    }
