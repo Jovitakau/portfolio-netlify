@@ -62,7 +62,7 @@ router.get('/service', function(req, res) {
 });
 
 router.get('/about', function(req, res) {
-  res.render('../public/views/about/about.html');
+  res.render('about.html');
 });
 
 router.get('/projects/:proj', function(req, res) {
