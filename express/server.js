@@ -1,29 +1,3 @@
-// const port = 3000
-
-// const express = require('express')
-// const path = require('path')
-// var bodyParser = require('body-parser');
-
-// const app = express()
-
-// app.set('view engine', 'html');
-
-// app.use(bodyParser.urlencoded({
-//   extended: true
-// }));
-// app.use(bodyParser.json());
-
-// var router = express.Router();
-
-// var routes = require('./routes');
-// app.use('/', routes);
-
-
-// app.listen(port, () => {
-//   console.log(`Example app listening at http://localhost:${port}`)
-// })
-
-'use strict';
 const express = require('express');
 const path = require('path');
 const serverless = require('serverless-http');
@@ -31,16 +5,17 @@ const app = express();
 
 const bodyParser = require('body-parser');
 app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'ejs');
 
 const router = express.Router();
 
-// app.use(express.static(path.join(__dirname + '../public')));
-
-app.set("views", __dirname);
+// app.use(express.static('./public'));
+app.use(express.static(path.join(__dirname, '/public')));
+app.set('views', './public/views')
 
 // define the home page route
 router.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, "public/views/index.html"));
+  res.render("index.html");
 });
 
 router.get('/projects', function(req, res) {
@@ -52,11 +27,11 @@ router.get('/industrial', function(req, res) {
 });
 
 router.get('/service', function(req, res) {
-  res.render('public/views/sections/service.html');
+  res.render('sections/service.html');
 });
 
 router.get('/about', function(req, res) {
-  res.render('about.html');
+  res.render('about/about.html');
 });
 
 router.get('/projects/:proj', function(req, res) {
@@ -65,8 +40,6 @@ router.get('/projects/:proj', function(req, res) {
 
 app.use(bodyParser.json());
 app.use('/.netlify/functions/server', router);  // path must route to lambda
-// app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../index.html')));
-
 
 module.exports = app;
 module.exports.handler = serverless(app);

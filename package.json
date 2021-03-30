@@ -31,5 +31,13 @@
   "bugs": {
     "url": "https://github.com/Jovitakau/portfolio/issues"
   },
-  "homepage": "https://github.com/Jovitakau/portfolio#readme"
+  "homepage": "https://github.com/Jovitakau/portfolio#readme",
+    "proxy": {
+    "/.netlify/functions": {
+      "target": "http://localhost:8888",
+      "pathRewrite": {
+        "^/\\.netlify/functions": ""
+      }
+    }
+  }
 }
