@@ -11,7 +11,7 @@ const router = express.Router();
 
 // app.use(express.static('./public'));
 app.use(express.static(path.join(__dirname, '/public')));
-app.set('views', './public/views')
+app.set('views', '/public/views')
 
 // define the home page route
 router.get('/', function(req, res) {
