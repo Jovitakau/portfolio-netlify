@@ -40,7 +40,7 @@ app.set("views", __dirname);
 
 // define the home page route
 router.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, "../public/views/index.html"));
+  res.sendFile(path.join(__dirname, "public/views/index.html"));
 });
 
 router.get('/projects', function(req, res) {
