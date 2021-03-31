@@ -1,10 +1,5 @@
 'use strict';
 
-// const app = require('./express/server');
-
-// app.listen(3000, () => console.log('Local app listening on port 3000!'));
-
-
 const express = require('express');
 const path = require('path');
 const serverless = require('serverless-http');
@@ -16,10 +11,9 @@ app.set('view engine', 'ejs');
 
 const router = express.Router();
 
-// app.use(express.static('./public'));
-app.use(express.static(path.join(__dirname, '/public')));
-// app.set('views', path.join(__dirname, './public/views/'));
-app.set('views', './public/views/')
+app.use(express.static('./public'));
+// app.use(express.static(path.join(__dirname, '/public')));
+app.set('views', 'public/views'); 
 
 // define the home page route
 router.get('/', (req, res) => {
