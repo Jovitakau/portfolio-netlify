@@ -18,12 +18,14 @@ const router = express.Router();
 
 // app.use(express.static('./public'));
 app.use(express.static(path.join(__dirname, '/public')));
-app.set('views', '/public/views')
+// app.set('views', path.join(__dirname, './public/views/'));
+app.set('views', './public/views/')
 
 // define the home page route
-router.get('/', function(req, res) {
+router.get('/', (req, res) => {
   res.render("index.html");
 });
+
 
 router.get('/projects', function(req, res) {
   res.render('sections/all.html');
