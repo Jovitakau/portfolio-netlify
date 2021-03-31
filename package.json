@@ -11,7 +11,7 @@
     "netlify-cli": "^3.13.8"
   },
   "scripts": {
-    "build": "netlify-lambda build express",
+    "build": "netlify-lambda build",
     "start": "nodemon server.js"
   },
   "devDependencies": {
